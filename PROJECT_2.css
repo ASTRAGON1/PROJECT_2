@@ -1,0 +1,136 @@
+
+@import url('https://fonts.google.com/specimen/Source+Sans+Pro:width@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h3 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+}
+
+.section-p1{
+    padding: 40px 0;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600; /*katkhli lwords bold ola la*/
+    color: #1a1a1a;
+    transition: 0.3s ease;   /*mli katbghi twerek ela chi haja katwli mdelma chwiya*/
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(106, 164, 189); /*hadi bach ila jbti mouse eliha katbdl lon*/
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    background: rgb(106, 164, 189);
+}
+
+#second{
+    background-image: url(https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 90vh;
+    width: 100%;
+    background-position: top 20% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#second h4 {
+    padding-bottom: 20px;
+}
+
+#second h1 {
+    color: rgb(117, 208, 178);
+}
+
+#second button {
+    background-image: url();
+    background-color: transparent;
+    color: rgb(117, 208, 178);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+ 
